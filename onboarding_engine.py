@@ -15,9 +15,9 @@ else:
   developer=True
 
 if age<18:
-  print(f'Tier3: Guest');
+  print(f'{name} held in Tier3: Guest. Because {name} under 18.');
 elif age>=18 and not developer:
-  print(f'Tier 2: Standard Executive Access');
+  print(f'{name} held in Tier 2: Standard Executive Access. Because {name} is not dev.');
 else:
   print(f'Tier 1: Admin Infrastructure Access');
 
